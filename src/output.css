@@ -516,6 +516,9 @@
   .overflow-hidden {
     overflow: hidden;
   }
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
   .rounded-3xl {
     border-radius: var(--radius-3xl);
   }
@@ -992,6 +995,10 @@
     }
     .md\:object-cover {
       object-fit: cover;
+    }
+    .md\:text-2xl {
+      font-size: var(--text-2xl);
+      line-height: var(--tw-leading, var(--text-2xl--line-height));
     }
     .md\:text-3xl {
       font-size: var(--text-3xl);

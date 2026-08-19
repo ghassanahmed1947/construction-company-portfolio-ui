@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -19,55 +19,42 @@
 <body class="box-border bg-slate-100">
 
 
-    <!-- ===================================================== -->
-    <!-- NAVBAR -->
-    <!-- ===================================================== -->
+    <!-- //navbar====================================================================// -->
 
     <nav class="flex h-16 w-full items-center bg-[#F5F5F5] px-4">
 
-        <!-- LOGO -->
+        <!-- logo -->
         <img
             src="./images/logo.new.png"
             alt="Company Logo"
             class="mr-auto h-16 w-16 object-contain"
         >
 
-
-        <!-- DESKTOP MENU -->
         <ul class="mr-4 hidden items-center gap-5 font-semibold md:flex">
 
             <li class="flex h-10 items-center">
                 <a
                     href="#"
-                    class="flex h-full items-center rounded-md px-3 transition-colors hover:bg-amber-500 hover:text-white"
-                >
-                    Home
+                    class="flex h-full items-center rounded-md px-3 transition-colors hover:bg-amber-500 hover:text-white">Home</a>
+            </li>
+
+            <li class="flex h-10 items-center">
+                <a
+                    href="#"
+                    class="flex h-full items-center rounded-md px-3 transition-colors hover:bg-amber-500 hover:text-white">About
                 </a>
             </li>
 
             <li class="flex h-10 items-center">
                 <a
                     href="#"
-                    class="flex h-full items-center rounded-md px-3 transition-colors hover:bg-amber-500 hover:text-white"
-                >
-                    About
-                </a>
-            </li>
-
-            <li class="flex h-10 items-center">
-                <a
-                    href="#"
-                    class="flex h-full items-center rounded-md px-3 transition-colors hover:bg-amber-500 hover:text-white"
-                >
-                    Projects
+                    class="flex h-full items-center rounded-md px-3 transition-colors hover:bg-amber-500 hover:text-white">Projects
                 </a>
             </li>
 
             <li>
                 <button
-                    class="mr-2 h-10 rounded-3xl border border-black bg-amber-400 px-6 font-semibold transition-colors hover:border-white hover:bg-black hover:text-white"
-                >
-                    Book Now
+                    class="mr-2 h-10 rounded-3xl border border-black bg-amber-400 px-6 font-semibold transition-colors hover:border-white hover:bg-black hover:text-white">   Book Now
                 </button>
             </li>
 
@@ -83,13 +70,11 @@
 
 
 
-    <!-- ===================================================== -->
-    <!-- HERO -->
-    <!-- ===================================================== -->
+    <!-- hero section============================================= -->
 
     <div class="relative min-h-[500px] w-full overflow-hidden md:min-h-[650px]">
 
-        <!-- VIDEO -->
+       <!-- hero video==============================================-->
         <video
             src="./videos/interior video.mp4"
             autoplay
@@ -100,43 +85,30 @@
         ></video>
 
 
-        <!-- OVERLAY -->
+        <!-- overlay effect-->
         <div class="absolute inset-0 bg-black/40"></div>
 
 
-        <!-- HERO CONTENT -->
-        <div
-            class="relative flex min-h-[500px] items-center justify-center px-6 text-center text-white md:min-h-[650px]"
-        >
+        <!-- hero text -->
+        <div class="relative flex min-h-[500px] items-center justify-center px-6 text-center text-white md:min-h-[650px]">
 
             <div>
 
-                <h1 class="text-3xl font-bold sm:text-4xl md:text-6xl">
-                    Transform Your
-                    <br>
-                    Space Into New
-                </h1>
+                <h1 class="text-3xl font-bold sm:text-4xl md:text-6xl">  Transform Your<br>Space Into New</h1>
 
 
-                <p class="mx-auto mt-4 max-w-2xl text-base sm:text-lg md:text-xl">
-                    Excellence built on solid ground
-                </p>
+                <p class="mx-auto mt-4 max-w-2xl text-base sm:text-lg md:text-xl">Excellence built on solid ground</p>
 
 
                 <div class="flex flex-col justify-center gap-3 sm:flex-row">
 
                     <button
-                        class="mt-6 rounded-full border-2 border-amber-300 bg-amber-500 px-8 py-3 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white"
-                    >
-                        Explore Projects
-                    </button>
+                        class="mt-6 rounded-full border-2 border-amber-300 bg-amber-500 px-8 py-3 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white">Explore Projects</button>
 
 
-                    <button
-                        class="mt-0 rounded-full border-2 border-amber-300 bg-amber-500 px-8 py-3 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white sm:mt-6"
-                    >
+                    <button class="mt-0 rounded-full border-2 border-amber-300 bg-amber-500 px-8 py-3 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white sm:mt-6">
                         Get Quote Now
-                    </button>
+                    </button class=>
 
                 </div>
 
@@ -148,14 +120,12 @@
 
 
 
-    <!-- ===================================================== -->
-    <!-- CARDS SECTION -->
-    <!-- ===================================================== -->
+  <!-- cards section of construction types=================================== -->
 
     <div class="flex w-full flex-col gap-6 bg-slate-100 p-4 sm:p-6 md:flex-row">
 
 
-        <!-- CARD 1 -->
+        <!-- card 1 -->
         <div
             class="flex-1 overflow-hidden rounded-xl transition-transform duration-500 hover:shadow-2xl md:hover:scale-105"
         >
@@ -194,7 +164,7 @@
 
 
 
-        <!-- CARD 2 -->
+        <!-- card2 -->
         <div
             class="flex-1 overflow-hidden rounded-xl transition-transform duration-500 hover:shadow-2xl md:hover:scale-105"
         >
@@ -233,7 +203,7 @@
 
 
 
-        <!-- CARD 3 -->
+        <!-- card 3 -->
         <div
             class="flex-1 overflow-hidden rounded-xl transition-transform duration-500 hover:shadow-2xl md:hover:scale-105"
         >
@@ -274,14 +244,13 @@
 
 
 
-    <!-- ===================================================== -->
-    <!-- ABOUT US -->
-    <!-- ===================================================== -->
+
+    <!-- about us====================================================== -->
 
     <div class="mt-4 flex w-full flex-col gap-8 bg-slate-200 p-4 sm:p-6 md:flex-row">
 
 
-        <!-- ABOUT TEXT -->
+        <!-- about us content-->
         <div class="flex-1">
 
             <div class="p-2 sm:p-4">
@@ -310,10 +279,10 @@
 
 
 
-       <!-- STATS -->
+        <!-- about our projects============================================================================= -->
 <div class="grid flex-1 grid-cols-2 gap-3 sm:gap-4">
 
-    <!-- STAT 1 -->
+    <!-- 1 -->
     <div class="mx-auto flex aspect-square w-28 flex-col items-center justify-center rounded-full bg-slate-300 p-3 text-center sm:w-32 md:w-36">
         <h2 class="text-xl font-bold text-amber-500 sm:text-2xl">
             24+
@@ -325,7 +294,7 @@
     </div>
 
 
-    <!-- STAT 2 -->
+    <!-- 2 -->
     <div class="mx-auto flex aspect-square w-28 flex-col items-center justify-center rounded-full bg-slate-300 p-3 text-center sm:w-32 md:w-36">
         <h2 class="text-xl font-bold text-amber-500 sm:text-2xl">
             300+
@@ -337,7 +306,7 @@
     </div>
 
 
-    <!-- STAT 3 -->
+    <!--  3 -->
     <div class="mx-auto flex aspect-square w-28 flex-col items-center justify-center rounded-full bg-slate-300 p-3 text-center sm:w-32 md:w-36">
         <h2 class="text-xl font-bold text-amber-500 sm:text-2xl">
             200+
@@ -349,11 +318,9 @@
     </div>
 
 
-    <!-- STAT 4 -->
+    <!-- 4 -->
     <div class="mx-auto flex aspect-square w-28 flex-col items-center justify-center rounded-full bg-slate-300 p-3 text-center sm:w-32 md:w-36">
-        <h2 class="text-xl font-bold text-amber-500 sm:text-2xl">
-            11
-        </h2>
+        <h2 class="text-xl font-bold text-amber-500 sm:text-2xl">11</h2>
 
         <p class="text-[10px] italic leading-tight sm:text-xs">
             Current Projects
@@ -365,9 +332,7 @@
 
 
 
-    <!-- ===================================================== -->
-    <!-- SERVICES HEADING -->
-    <!-- ===================================================== -->
+    <!-- about services =================================================================================-->
 
     <div class="mt-4 flex w-full items-center bg-slate-200 p-6 sm:min-h-50">
 
@@ -391,19 +356,17 @@
 
 
 
-    <!-- ===================================================== -->
-    <!-- SERVICES -->
-    <!-- ===================================================== -->
+      <!-- services================================================================================ -->
 
     <div class="mt-4 w-full bg-slate-200 p-4 sm:p-6">
 
         <div class="grid w-full grid-cols-2 gap-2 md:grid-cols-4">
 
+            
+            <!-- total 8====================================== -->
 
-            <!-- SERVICE 1 -->
-            <div
-                class="flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
-            >
+            <!--  1 -->
+            <div class="flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white">
 
                 <span class="material-symbols-outlined text-3xl">
                     factory
@@ -418,7 +381,7 @@
             </div>
 
 
-            <!-- SERVICE 2 -->
+            <!--  2 -->
             <div
                 class="flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
             >
@@ -436,7 +399,7 @@
             </div>
 
 
-            <!-- SERVICE 3 -->
+            <!-- 3 -->
             <div
                 class="flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
             >
@@ -454,7 +417,7 @@
             </div>
 
 
-            <!-- SERVICE 4 -->
+            <!--  4 -->
             <div
                 class="flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
             >
@@ -472,7 +435,7 @@
             </div>
 
 
-            <!-- SERVICE 5 -->
+            <!--  5 -->
             <div
                 class="flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
             >
@@ -490,7 +453,7 @@
             </div>
 
 
-            <!-- SERVICE 6 -->
+            <!--  6 -->
             <div
                 class="flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
             >
@@ -508,7 +471,7 @@
             </div>
 
 
-            <!-- SERVICE 7 -->
+            <!-- 7 -->
             <div
                 class="flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
             >
@@ -526,7 +489,7 @@
             </div>
 
 
-            <!-- SERVICE 8 -->
+            <!--  8 -->
             <div
                 class="flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
             >
@@ -549,9 +512,7 @@
 
 
 
-    <!-- ===================================================== -->
-    <!-- PROJECTS HEADING -->
-    <!-- ===================================================== -->
+     <!-- about projects card ===================================== -->
 
     <div class="mt-4 flex w-full items-center bg-slate-200 p-6 sm:min-h-50">
 
@@ -575,25 +536,19 @@
 
 
 
-    <!-- ===================================================== -->
-    <!-- PROJECTS -->
-    <!-- ===================================================== -->
+  <!-- projects========================================================== -->
 
     <div class="mt-4 w-full bg-slate-200 p-4 sm:p-6">
 
         <div class="grid w-full grid-cols-1 gap-6 md:grid-cols-2">
 
 
-            <!-- PROJECT 1 -->
+            <!--  1 -->
             <div class="overflow-hidden rounded-xl border-2 border-slate-300 bg-amber-700">
 
                 <div class="h-72 w-full sm:h-96 md:h-[440px]">
 
-                    <img
-                        src="./images/projects.jfif"
-                        alt="Project"
-                        class="h-full w-full object-cover"
-                    >
+                    <img  src="./images/projects.jfif" alt="Project" class="h-full w-full object-cover">
 
                 </div>
 
@@ -618,7 +573,7 @@
 
 
 
-            <!-- PROJECT 2 -->
+            <!--  2 -->
             <div class="overflow-hidden rounded-xl border-2 border-slate-300 bg-amber-700">
 
                 <div class="h-72 w-full sm:h-96 md:h-[440px]">
@@ -652,7 +607,7 @@
 
 
 
-            <!-- PROJECT 3 -->
+            <!-- 3 -->
             <div class="overflow-hidden rounded-xl border-2 border-slate-300 bg-amber-700">
 
                 <div class="h-72 w-full sm:h-96 md:h-[440px]">
@@ -687,8 +642,8 @@
 
 
 
-            <!-- PROJECT 4 -->
-            <div class="overflow-hidden rounded-xl border-2 border-slate-300 bg-amber-700">
+            <!--  4 -->
+            <div class="overflow-hidden rounded-xl border-2 border-slate-300 ">
 
                 <div class="h-72 w-full sm:h-96 md:h-[440px]">
 
@@ -726,9 +681,7 @@
 
 
 
-    <!-- ===================================================== -->
-    <!-- BUSINESS PARTNERS HEADING -->
-    <!-- ===================================================== -->
+      <!-- about busines partners ==================================================================================== -->
 
     <div class="mt-4 flex w-full items-center bg-slate-200 p-6 sm:min-h-50">
 
@@ -738,18 +691,7 @@
                 ABOUT BUSINESS PARTNERS
             </h6>
 
-            <h1 class="text-xl font-medium sm:text-2xl md:text-3xl">
-
-                The material we use in the construction
-                of your dream project is of
-                <span class="text-amber-500">A-one</span> quality,
-
-                made in
-                <span class="text-amber-500">Pakistan</span>
-                or imported from
-                <span class="text-amber-500">USA</span>
-
-            </h1>
+            <h1 class="text-xl font-medium sm:text-2xl md:text-3xl ">The material we use in the  construction of your dream project is of <span class="text-amber-500">A-one</span> quality ,made in <span class="text-amber-500">Pakistan</span> or imported from <span class="text-amber-500">USA</span></h1>
 
         </div>
 
@@ -757,95 +699,56 @@
 
 
 
-    <!-- ===================================================== -->
-    <!-- PARTNERS -->
-    <!-- ===================================================== -->
+     <!-- partners logo ============================================================== -->
 
     <div class="w-full bg-slate-200 p-4 sm:p-6">
 
         <div class="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-6">
 
 
-            <!-- PARTNER 1 -->
-            <div
-                class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105"
-            >
+            <!--  1 -->
+            <div class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105">
 
-                <img
-                    src="./images/nucor steels.jfif"
-                    alt="Nucor Steels"
-                    class="h-full w-full object-contain"
-                >
+                <img src="./images/nucor steels.jfif" alt="Nucor Steels"  class="h-full w-full object-contain">
 
             </div>
 
 
-            <!-- PARTNER 2 -->
-            <div
-                class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105"
-            >
+            <!--  2 -->
+            <div class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105" >
 
-                <img
-                    src="./images/faisal-sanitary.jfif"
-                    alt="Faisal Sanitary"
-                    class="h-full w-full object-contain"
-                >
+                <img src="./images/faisal-sanitary.jfif"alt="Faisal Sanitary"class="h-full w-full object-contain">
 
             </div>
 
 
-            <!-- PARTNER 3 -->
-            <div
-                class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105"
-            >
-
-                <img
-                    src="./images/lucky-cement.jfif"
-                    alt="Lucky Cement"
-                    class="h-full w-full object-contain"
-                >
+            <!--  3 -->
+            <div  class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105">
+                <img src="./images/lucky-cement.jfif" alt="Lucky Cement" class="h-full w-full object-contain">
 
             </div>
 
 
-            <!-- PARTNER 4 -->
-            <div
-                class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105"
-            >
+            <!--  4 -->
+            <div class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105">
 
-                <img
-                    src="./images/siri tiles.jfif"
-                    alt="Siri Tiles"
-                    class="h-full w-full object-contain"
-                >
+                <img src="./images/siri tiles.jfif"  alt="Siri Tiles"class="h-full w-full object-contain">
 
             </div>
 
 
-            <!-- PARTNER 5 -->
-            <div
-                class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105"
-            >
+            <!--  5 -->
+            <div class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105">
 
-                <img
-                    src="./images/moen-sanitary.jfif"
-                    alt="Moen Sanitary"
-                    class="h-full w-full object-contain"
-                >
+                <img src="./images/moen-sanitary.jfif" alt="Moen Sanitary" class="h-full w-full object-contain">
 
             </div>
 
 
-            <!-- PARTNER 6 -->
-            <div
-                class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105"
-            >
+            <!--  6 -->
+            <div class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105">
 
-                <img
-                    src="./images/amreli-steels.jfif"
-                    alt="Amreli Steels"
-                    class="h-full w-full object-contain"
-                >
+                <img src="./images/amreli-steels.jfif" alt="Amreli Steels" class="h-full w-full object-contain">
 
             </div>
 
@@ -855,49 +758,31 @@
 
 
 
-    <!-- ===================================================== -->
-    <!-- FOOTER -->
-    <!-- ===================================================== -->
+    <!-- footer============================================================================== -->
 
     <footer class="mt-16 w-full bg-black text-white">
 
 
-        <!-- FOOTER MAIN -->
-        <div
-            class="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-14 sm:grid-cols-2 lg:grid-cols-4 lg:px-10"
-        >
+        <!-- msin footer div -->
+        <div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-14 sm:grid-cols-2 lg:grid-cols-4 lg:px-10" >
 
 
-            <!-- COLUMN 1 -->
+            <!-- col 1 -->
             <div class="flex flex-col gap-5">
 
-                <img
-                    src="./images/logonewbg.jfif"
-                    alt="Company Logo"
-                    class="w-32 object-contain sm:w-40"
-                >
+                <img src="./images/logonewbg.jfif"alt="Company Logo"class="w-32 object-contain sm:w-40">
 
-                <p class="max-w-sm text-sm leading-6 text-neutral-400">
-                    We provide reliable construction, architecture,
-                    renovation, and interior design solutions built
-                    around quality and trust.
-                </p>
+                <p class="max-w-sm text-sm leading-6 text-neutral-400">We provide reliable construction, architecture,renovation, and interior design solutions builtaround quality and trust.</p>
 
 
                 <div class="flex gap-4">
 
                     <a
-                        href="#"
-                        class="text-sm text-neutral-400 transition hover:text-amber-500"
-                    >
-                        Facebook
+                        href="#" class="text-sm text-neutral-400 transition hover:text-amber-500" >Facebook
                     </a>
 
                     <a
-                        href="#"
-                        class="text-sm text-neutral-400 transition hover:text-amber-500"
-                    >
-                        Instagram
+                        href="#" class="text-sm text-neutral-400 transition hover:text-amber-500" >Instagram
                     </a>
 
                 </div>
@@ -906,7 +791,7 @@
 
 
 
-            <!-- COLUMN 2 -->
+            <!-- col 2 -->
             <div>
 
                 <h2 class="mb-5 text-lg font-semibold">
@@ -945,7 +830,7 @@
 
 
 
-            <!-- COLUMN 3 -->
+            <!-- col 3 -->
             <div>
 
                 <h2 class="mb-5 text-lg font-semibold">
@@ -990,35 +875,14 @@
 
 
 
-            <!-- COLUMN 4 -->
-            <div>
+            <!-- col 4 -->
+            <div><h2 class="mb-5 text-lg font-semibold">Contact Us</h2>
 
-                <h2 class="mb-5 text-lg font-semibold">
-                    Contact Us
-                </h2>
+                <ul class="space-y-4 text-sm text-neutral-400"><li><span class="block text-white">Phon</span>+92 300 1234567</li>
 
-                <ul class="space-y-4 text-sm text-neutral-400">
+                    <li><span class="block text-white">Email</span>info@company.com</li>
 
-                    <li>
-                        <span class="block text-white">
-                            Phone
-                        </span>
-                        +92 300 1234567
-                    </li>
-
-                    <li>
-                        <span class="block text-white">
-                            Email
-                        </span>
-                        info@company.com
-                    </li>
-
-                    <li>
-                        <span class="block text-white">
-                            Address
-                        </span>
-                        Karachi, Pakistan
-                    </li>
+                    <li><span class="block text-white">Address</span>Karachi, Pakistan</li>
 
                 </ul>
 
@@ -1028,7 +892,7 @@
 
 
 
-        <!-- FOOTER BOTTOM -->
+        <!-- fotter foot -->
         <div class="border-t border-neutral-800">
 
             <div
@@ -1060,7 +924,6 @@
 
 
 
-    <!-- JAVASCRIPT -->
     <script src="./index.js"></script>
 
 </body>
