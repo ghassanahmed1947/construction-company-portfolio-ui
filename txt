@@ -1,0 +1,44 @@
+<footer class="mt-4 w-full bg-amber-200 p-6">
+
+    <div class="grid h-98 w-full grid-cols-4 grid-rows-1 bg-amber-300 ">
+
+        <!-- COLUMN 1 -->
+        <div class="flex flex-col items-center justify-center">
+            <img src="" alt="">
+        </div>
+
+        <!-- COLUMN 2 -->
+        <div class="flex flex-col items-center justify-center">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Projects</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <!-- COLUMN 3 -->
+        <div class="flex flex-col items-center justify-center">
+            <ul>
+                <li>Commercial</li>
+                <li>Residential</li>
+                <li>Interior Design</li>
+                <li>Construction</li>
+                <li>Renovation</li>
+                <li>Architecture</li>
+            </ul>
+        </div>
+
+        <!-- COLUMN 4 -->
+        <div class="flex flex-col items-center justify-center ">
+            <ul class="">
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>LinkedIn</li>
+                <li>YouTube</li>
+            </ul>
+        </div>
+
+    </div>
+
+</footer>
