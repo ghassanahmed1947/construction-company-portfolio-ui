@@ -16,17 +16,17 @@
 
 <body class="box-border bg-slate-100">
 
-    <!-- //navbar====================================================================// -->
+    <!-- navbar==================================================================== -->
 
 <nav class="sticky top-0 z-50 flex h-16 w-full items-center bg-black  shadow-[0_2px_4px_rgba(0,0,0,0.15)]">
 
     <!-- Logo -->
-    <img src="./images/logo-final.jfif"alt="Company Logo" class="mr-auto h-15 w-15 object-contain">
+    <img src="./images/logofinal2-removebg-preview.png"alt="Company Logo" class="mr-auto h-30 w-30 object-contain">
 
-    <!-- Desktop Menu -->
+    <!-- desktop menu -->
     <ul class="mr-4 hidden items-center gap-5 font-semibold md:flex">
 
-        <!-- Home -->
+        <!-- home -->
         <li class="flex h-10 items-center">
             <a
                 href="#"
@@ -59,7 +59,7 @@
         <!-- Book Now -->
         <li>
             <button
-                class="mr-2 h-10 rounded-3xl border border-black bg-amber-500 px-6 font-semibold transition-colors hover:border-white hover:bg-white hover:text-black font-serif"
+                class="mr-2 h-10 rounded-2xl border border-black bg-amber-500 px-6 font-semibold transition-colors hover:border-white hover:bg-white hover:text-black font-sans"
             >
                 Book Now
             </button>
@@ -81,7 +81,7 @@
 
 <!-- mobile side bar ========================================================== -->
 
-<div id="mobilePanel" class="fixed right-0 top-16 z-40 hidden w-64 bg-black shadow-md md:hidden">
+<div id="mobilePanel" class="fixed right-0 top-16 z-40 hidden w-64 bg-black shadow-md md:hidden rounded-b-2xl">
 
     <ul class="flex flex-col p-4 font-semibold">
 
@@ -101,29 +101,23 @@
 
         <!-- book btn -->
         <li class="mt-2">
-            <button class="w-full rounded-3xl border border-black bg-amber-500 px-6 py-2 font-semibold hover:bg-white hover:text-black" >Book Now</button>
+            <button class="w-full rounded-2xl border border-black bg-amber-500 px-6 py-2 font-semibold hover:bg-white hover:text-black" >Book Now</button>
         </li>
 
     </ul>
 
 </div>
 
-
-
-
-
-
      <!-- hero=====================================================  -->
 
     <div class="relative w-full overflow-hidden md:min-h-[650px] shadow-[2_4px_8px_rgba(0,0,0,0.15)]">
 
-       <!-- hero video==============================================-->
+      
         <video src="./videos/interior video.mp4" autoplay loop muted playsinline class="absolute inset-0 h-full w-full object-cover"></video>
 
 
         <!-- overlay effect-->
         <div class="absolute inset-0 bg-black/40"></div>
-
 
         <!-- hero text -->
         <div class="relative flex min-h-[500px] items-center justify-center px-6 text-center text-white md:min-h-[650px]">
@@ -139,10 +133,10 @@
                 <div class="flex flex-col justify-center gap-3 sm:flex-row">
 
                     <button
-                        class="mt-6 rounded-full   bg-amber-500 px-8 py-3 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white">Explore Projects</button>
+                        class="mt-6 rounded-2xl   bg-amber-500 px-8 py-3 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white">Explore Projects</button>
 
 
-                    <button class="mt-0 rounded-full  bg-amber-500 px-8 py-3 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white sm:mt-6">
+                    <button class="mt-0 rounded-2xl  bg-amber-500 px-8 py-3 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white sm:mt-6">
                         Get Quote Now
                     </button class=>
 
@@ -161,26 +155,31 @@
 
   <!-- cards section of construction types=================================== -->
 
-    <div class="flex w-full flex-col gap-6 bg-slate-200 p-4 mt-8 sm:p-6 md:flex-row rounded-3xl shadow-2xl">
+    <div class="flex w-full flex-col gap-6 bg-slate-200 p-4 mt-8 sm:p-6 min-[1000px]:flex-row min-[1000px]:flex-wrap rounded-3xl shadow-2xl">
 
     <!-- card 1 -->
-    <div class="flex flex-1 flex-col overflow-hidden rounded-xl transition-transform duration-500 hover:shadow-2xl md:hover:scale-105">
-        <div class="h-48 overflow-hidden sm:h-52 md:h-56">
+    <div class="flex flex-1 flex-col overflow-hidden rounded-xl transition-transform duration-500 hover:shadow-2xl md:hover:scale-105 ">
+        <div class="h-48 overflow-hidden sm:h-52 md:h-56 ">
             <img src="./images/resedential.jfif" alt="Residential Construction" class="h-full w-full ">
         </div>
 
-        <div class="flex flex-1 flex-col justify-between bg-slate-100 p-4">
-            <div>
-                <h2 class="m-2 text-2xl font-semibold sm:text-3xl">Residential</h2>
-                <p class="px-2 text-sm leading-6 sm:text-base">
-                    We build modern residential homes designed for comfort, functionality, and lasting value. From planning to construction.
-                </p>
-            </div>
-            <button class="m-2 h-10 w-40 rounded-full border-2 border-amber-300 bg-amber-500 px-2 py-1 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white">
-                Learn More
-            </button>
-        </div>
+        <div class="flex flex-1 flex-col items-center justify-center bg-slate-100 p-4">
+    
+    <h2 class="m-2 text-2xl font-semibold sm:text-3xl">
+        Residential
+    </h2>
+
+    <p class="max-w-md px-2 text-center text-sm leading-6 ">
+        We build modern residential homes designed for comfort, functionality, and lasting value. From planning to construction.
+    </p>
+
+    <button class="m-2 h-10 w-40 rounded-2xl border-2 border-amber-300 bg-amber-500 px-2 py-1 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white">
+        Learn More
+    </button>
+
+</div>
     </div>
+
 
     <!-- card 2 -->
     <div class="flex flex-1 flex-col overflow-hidden rounded-xl transition-transform duration-500 hover:shadow-2xl md:hover:scale-105">
@@ -188,14 +187,14 @@
             <img src="./images/commercial2.jfif" alt="Commercial Construction" class="h-full w-full ">
         </div>
 
-        <div class="flex flex-1 flex-col justify-between bg-slate-100 p-4">
-            <div>
+        <div class="flex flex-1 flex-col items-center justify-center bg-slate-100 p-4">
+         
                 <h2 class="m-2 text-2xl font-semibold sm:text-3xl">Commercial</h2>
-                <p class="px-2 text-sm leading-6 sm:text-base">
+                <p class="px-2 max-w-md text-center text-sm leading-6 sm:text-base">
                     We build modern commercial spaces designed for comfort, functionality, and lasting value. From planning to construction.
                 </p>
-            </div>
-            <button class="m-2 h-10 w-40 rounded-full border-2 border-amber-300 bg-amber-500 px-2 py-1 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white">
+
+            <button class="m-2 h-10 w-40 rounded-2xl border-2 border-amber-300 bg-amber-500 px-2 py-1 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white">
                 Learn More
             </button>
         </div>
@@ -207,14 +206,14 @@
             <img src="./images/interior.jfif" alt="Interior Designing" class="h-full w-full ">
         </div>
 
-        <div class="flex flex-1 flex-col justify-between bg-slate-100 p-4">
-            <div>
+       <div class="flex flex-1 flex-col items-center justify-center bg-slate-100 p-4">
+   
                 <h2 class="m-2 text-2xl font-semibold sm:text-3xl">Interior Designing</h2>
-                <p class="px-2 text-sm leading-6 sm:text-base">
+                <p class="px-2 max-w-md text-center text-sm leading-6 sm:text-base ">
                     We create beautiful and functional interiors designed around your lifestyle, needs, and vision.
                 </p>
-            </div>
-            <button class="m-2 h-10 w-40 rounded-full border-2 border-amber-300 bg-amber-500 px-2 py-1 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white">
+      
+            <button class="m-2 h-10 w-40 rounded-2xl border-2 border-amber-300 bg-amber-500 px-2 py-1 font-semibold text-black transition-colors hover:border-white hover:bg-black hover:text-white">
                 Learn More
             </button>
         </div>
@@ -227,37 +226,39 @@
 
 
         <!-- about us content-->
-        <div class="flex-1">
+        <div class="flex-1 text-center lg:text-left">
 
-            <div class="pl-12 pt-12 ">
+    <div class="px-4 pt-8 sm:px-6 sm:pt-10 lg:pl-12 lg:pt-12">
 
-                <h2 class="text-2xl font-medium">
-                    About US
-                </h2>
+        <h2 class="text-2xl font-medium sm:text-3xl">
+            About US
+        </h2>
 
-                <p class="mt-3 text-sm font-medium leading-7 sm:text-base">
-                    We are a trusted construction company dedicated to turning
-                    ideas into high-quality spaces. From residential to commercial
-                    projects, we combine expert craftsmanship, quality materials,
-                    and modern design to deliver results built to last.
-                </p>
+        <p class="mt-3 text-sm font-medium leading-7 sm:text-lg">
+            We are a trusted construction company dedicated to turning
+            ideas into high-quality spaces. From residential to commercial
+            projects, we combine expert craftsmanship, quality materials,
+            and modern design to deliver results built to last.
+        </p>
 
-                <a
-                    href="#"class="mt-4 inline-block text-lg text-amber-500 hover:underline">
-                    Learn More...
-                </a>
+        <a
+            href="#"
+            class="mt-4 inline-block text-lg text-amber-500 transition hover:text-amber-600 hover:underline"
+        >
+            Learn More...
+        </a>
 
-            </div>
+    </div>
 
-        </div>
+</div>
 
 
 
         <!-- about our work ============================================================================= -->
-    <div class="  grid flex-1  items-baseline-last  grid-cols-2 gap-3 sm:gap-4 ">
+    <div class="   grid flex-1  items-baseline-last  grid-cols-2 gap-1 sm:gap-4 ">
 
     <!-- 1 -->
-    <div class="shadow-xl   mx-auto flex aspect-square  w-34 flex-col items-center justify-center rounded-full bg-slate-100 p-3 text-center sm:w-32 md:w-36 transition-transform duration-500 hover:shadow-2xl  md:hover:scale-105">
+    <div class=" shadow-xl mx-auto flex aspect-square  w-34 flex-col items-center justify-center rounded-full bg-slate-100 p-3 text-center sm:w-32 md:w-36 transition-transform duration-500 hover:shadow-2xl  md:hover:scale-105">
         <h2 class="text-xl font-bold text-amber-500 sm:text-2xl">
             1889
         </h2>
@@ -307,193 +308,47 @@
 
     <!-- about services =================================================================================-->
 
-    <div class="mt-4 flex w-full items-center bg-slate-200 p-6 sm:min-h-50 rounded-tr-3xl rounded-tl-3xl shadow-2xl">
+    <div class="mt-4 flex w-full items-center rounded-tl-3xl rounded-tr-3xl bg-slate-200 p-6 shadow-2xl sm:min-h-50">
 
-        <div class="w-full pt-12 pl-12 pb-4">
+    <div class="w-full pt-8 text-center sm:pt-10 md:pt-12 md:text-center lg:pl-12 lg:text-left">
 
-            <h6 class="text-lg font-semibold sm:text-xl">
-                OUR SERVICES
-            </h6>
+        <h6 class="text-xl font-semibold sm:text-2xl md:text-2xl lg:text-xl">
+            OUR SERVICES
+        </h6>
 
-            <h1 class="text-2xl font-medium sm:text-3xl md:text-4xl">
-                We offer a range
-                <br>
-                of <span class="text-amber-500">Services</span> to meet
-                <br>
-                your need
-            </h1>
-
-        </div>
+        <h1 class="text-3xl font-medium leading-tight sm:text-4xl md:text-5xl lg:text-4xl">
+            We offer a range
+            <br>
+            of <span class="text-amber-500">Services</span> to meet
+            <br>
+            your need
+        </h1>
 
     </div>
 
+</div>
 
+           <!-- services================================================================================ -->
 
-      <!-- services================================================================================ -->
+    <div class="w-full mx-auto rounded-br-3xl rounded-bl-3xl bg-slate-200 p-4 shadow-2xl sm:p-6">
 
-    <div class=" w-full bg-slate-200 p-4 sm:p-6   mx-auto rounded-br-3xl rounded-bl-3xl shadow-2xl">
-        <div class="   grid w-full  grid-cols-2 gap-6 md:grid-cols-4">
-
-            
-            <!-- total 8====================================== -->
-
-            <!--  1 -->
-            <div class="shadow-2xl rounded-full flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white">
-
-                <span class="material-symbols-outlined text-3xl">
-                    factory
-                </span>
-
-                <p class="text-sm font-semibold text-amber-500 sm:text-lg">
-                    Commercial
-                    <br>
-                    Construction
-                </p>
-
-            </div>
-
-
-            <!--  2 -->
-            <div
-                class="shadow-2xl rounded-full flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
-            >
-
-                <span class="material-symbols-outlined text-3xl">
-                    house
-                </span>
-
-                <p class="text-sm font-semibold text-amber-500 sm:text-lg">
-                    Residential
-                    <br>
-                    Construction
-                </p>
-
-            </div>
-
-
-            <!-- 3 -->
-            <div
-                class="shadow-2xl rounded-full flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
-            >
-
-                <span class="material-symbols-outlined text-3xl">
-                    front_loader
-                </span>
-
-                <p class="text-sm font-semibold text-amber-500 sm:text-lg">
-                    Pre-
-                    <br>
-                    Construction
-                </p>
-
-            </div>
-
-
-            <!--  4 -->
-            <div
-                class="shadow-2xl rounded-full flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
-            >
-
-                <span class="material-symbols-outlined text-3xl">
-                    blinds_2_closed
-                </span>
-
-                <p class="text-sm font-semibold text-amber-500 sm:text-lg">
-                    Interior
-                    <br>
-                    Designing
-                </p>
-
-            </div>
-
-
-            <!--  5 -->
-            <div
-                class="shadow-2xl rounded-full flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
-            >
-
-                <span class="material-symbols-outlined text-3xl">
-                    engineering
-                </span>
-
-                <p class="text-sm font-semibold text-amber-500 sm:text-lg">
-                    Civil
-                    <br>
-                    Engineering
-                </p>
-
-            </div>
-
-
-            <!--  6 -->
-            <div
-                class="shadow-2xl rounded-full flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
-            >
-
-                <span class="material-symbols-outlined text-3xl">
-                    countertops
-                </span>
-
-                <p class="text-sm font-semibold text-amber-500 sm:text-lg">
-                    Special
-                    <br>
-                    Projects
-                </p>
-
-            </div>
-
-
-            <!-- 7 -->
-            <div
-                class="shadow-2xl rounded-full black flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
-            >
-
-                <span class="material-symbols-outlined text-3xl">
-                    bookmark_manager
-                </span>
-
-                <p class="text-sm font-semibold text-amber-500 sm:text-lg">
-                    Site
-                    <br>
-                    Management
-                </p>
-
-            </div>
-
-            <!--  8 -->
-            <div
-                class="shadow-2xl rounded-full black flex min-h-32 flex-col items-center justify-center bg-slate-100 p-3 text-center transition hover:bg-white"
-            >
-
-                <span class="material-symbols-outlined text-3xl">
-                    landscape_2
-                </span>
-
-                <p class="text-sm font-semibold text-amber-500 sm:text-lg">
-                    Landscape
-                    <br>
-                    Construction
-                </p>
-
-            </div>
-
-        </div>
-
+    <div id="servicesContainer"
+        class="grid w-full grid-cols-2 gap-6 md:grid-cols-4">
     </div>
 
-
+</div>
 
      <!-- about projects card ===================================== -->
 
-    <div class="mt-4 flex w-full items-center bg-slate-200 p-6 sm:min-h-50 rounded-3xl shadow-2xl">
+    <div class="mt-4 flex w-full items-center rounded-tl-3xl rounded-tr-3xl bg-slate-200 p-6 shadow-2xl sm:min-h-50">
 
-        <div class="w-full pl-12 pt-2 pb-2">
+        <div class="w-full pt-8 text-center sm:pt-10 md:pt-12 md:text-center lg:pl-12 lg:text-left">
 
-            <h6 class="text-lg font-semibold sm:text-xl">
+            <h6 class="text-xl font-semibold sm:text-2xl md:text-2xl lg:text-xl">
                 WHAT WE DO
             </h6>
 
-            <h1 class="text-2xl font-medium sm:text-3xl md:text-4xl">
+              <h1 class="text-3xl font-medium leading-tight sm:text-4xl md:text-5xl lg:text-4xl">
                 Explore some of our
                 <br>
                 <span class="text-amber-500">Projects</span> then make
@@ -507,78 +362,19 @@
 
   <!-- projects========================================================== -->
 
-    <div class="mt-4 w-full bg-slate-200 p-4 sm:p-6 rounded-3xl shadow-lg">
+    <div class="mt-4 w-full rounded-3xl bg-slate-200 p-4 shadow-lg sm:p-6">
 
-    <div class="grid w-full grid-cols-1 gap-6 md:grid-cols-2">
-
-        <!-- Card 1 -->
-        <div class="flex flex-col overflow-hidden rounded-xl shadow-lg bg-slate-100">
-           
-            <div class="h-48 w-full bg-slate-900 sm:h-56 md:h-64">
-                <img src="./images/projects.jfif" alt="Project" class="h-full w-full object-cover">
-            </div>
-
-            <div class="flex flex-1 flex-col justify-between p-4 sm:p-5">
-                <div>
-                    <h2 class="text-base font-medium sm:text-lg">Location</h2>
-                    <h5 class="text-amber-500 underline text-sm sm:text-base">Karachi #442544156</h5>
-                    <p class="mt-2 text-sm font-semibold sm:text-base">One of our projects currently in progress</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="flex flex-col overflow-hidden rounded-xl shadow-lg bg-slate-100">
-            <div class="h-48 w-full bg-slate-900 sm:h-56 md:h-64">
-                <img src="./images/project2.jfif" alt="Project" class="h-full w-full object-cover">
-            </div>
-
-            <div class="flex flex-1 flex-col justify-between p-4 sm:p-5">
-                <div>
-                    <h2 class="text-base font-medium sm:text-lg">Location</h2>
-                    <h5 class="text-amber-500 underline text-sm sm:text-base">Karachi #8874657</h5>
-                    <p class="mt-2 text-sm font-semibold sm:text-base">Completed grey structure, now moving towards finishing</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="flex flex-col overflow-hidden rounded-xl shadow-lg bg-slate-100">
-            <div class="h-48 w-full bg-slate-900 sm:h-56 md:h-64">
-                <img src="./images/commercial project.jfif" alt="Commercial Project" class="h-full w-full object-cover">
-            </div>
-
-            <div class="flex flex-1 flex-col justify-between p-4 sm:p-5">
-                <div>
-                    <h2 class="text-base font-medium sm:text-lg">Location</h2>
-                    <h5 class="text-amber-500 underline text-sm sm:text-base">Karachi #77765367</h5>
-                    <p class="mt-2 text-sm font-semibold sm:text-base">Completed the food street in Karachi. Visit there any time you want.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="flex flex-col overflow-hidden rounded-xl shadow-lg bg-slate-100">
-            <div class="h-48 w-full bg-slate-900 sm:h-56 md:h-64">
-                <img src="./images/interior designing.jfif" alt="Interior Design Project" class="h-full w-full object-cover">
-            </div>
-
-            <div class="flex flex-1 flex-col justify-between p-4 sm:p-5">
-                <div>
-                    <h2 class="text-base font-medium sm:text-lg">Location</h2>
-                    <h5 class="text-amber-500 underline text-sm sm:text-base">Islamabad #4453565</h5>
-                    <p class="mt-2 text-sm font-semibold sm:text-base">We designed the interior of a house for one of our best clients.</p>
-                </div>
-            </div>
-        </div>
-
+    <div id="projectsContainer"
+        class="grid w-full grid-cols-1 gap-6 md:grid-cols-2">
     </div>
 
 </div>
 
+<script src="./js/projects.js"></script>
+
       <!-- about busines partners ==================================================================================== -->
 
-    <div class="mt-4 flex w-full items-center bg-slate-200 p-6 sm:min-h-50 rounded-tl-3xl rounded-tr-3xl">
+    <div class="mt-4 flex w-full items-center text-center bg-slate-200 p-6 sm:min-h-50 rounded-tl-3xl rounded-tr-3xl">
 
         <div class="w-full  flex flex-col justify-center items-center">
 
@@ -596,82 +392,37 @@
 
      <!-- partners logo ============================================================== -->
 
-    <div class="w-full bg-slate-200 p-4 sm:p-6 rounded-bl-3xl rounded-br-3xl shadow-[0_2px_4px_rgba(0,0,0,0.125)]">
+    <div class="w-full rounded-bl-3xl rounded-br-3xl bg-slate-200 p-4 shadow-[0_2px_4px_rgba(0,0,0,0.125)] sm:p-6">
 
-        <div class="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-6">
-
-
-            <!--  1 -->
-            <div class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105 ">
-
-                <img src="./images/nucor steels.jfif" alt="Nucor Steels"  class="h-full w-full object-contain animate-pulse">
-
-            </div>
-
-
-            <!--  2 -->
-            <div class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105 " >
-
-                <img src="./images/faisal-sanitary.jfif"alt="Faisal Sanitary"class="h-full w-full object-contain animate-pulse">
-
-            </div>
-
-
-            <!--  3 -->
-            <div  class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105 ">
-                <img src="./images/lucky-cement.jfif" alt="Lucky Cement" class="h-full w-full object-contain animate-pulse">
-
-            </div>
-
-
-            <!--  4 -->
-            <div class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105 ">
-
-                <img src="./images/siri tiles.jfif"  alt="Siri Tiles"class="h-full w-full object-contain animate-pulse">
-
-            </div>
-
-
-            <!--  5 -->
-            <div class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105 ">
-
-                <img src="./images/moen-sanitary.jfif" alt="Moen Sanitary" class="h-full w-full object-contain animate-pulse">
-
-            </div>
-
-
-            <!--  6 -->
-            <div class="flex aspect-square items-center justify-center overflow-hidden bg-slate-400 transition-transform duration-500 hover:shadow-2xl md:hover:scale-105 ">
-
-                <img src="./images/amreli-steels.jfif" alt="Amreli Steels" class="h-full w-full object-contain animate-pulse">
-
-            </div>
-
-        </div>
-
+    <div id="partnersContainer"
+        class="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-6">
     </div>
+
+</div>
+
+<script src="./js/partners.js"></script>
 
 </main>
 
     <!-- footer============================================================================== -->
 
-    <footer class="mt-16 w-full bg-black text-white">
+    <footer class="mt-16 w-full bg-black text-white flex sm:justify-center items-center flex-col ">
 
 
         <!-- msin footer div -->
-        <div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-14 sm:grid-cols-2 lg:grid-cols-4 lg:px-10" >
+        <div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-14 sm:grid-cols-2    lg:grid-cols-4 lg:px-10 items-center justify-center" >
 
             <!-- col 1 -->
-            <div class="flex flex-col gap-5">
+            <div class="flex flex-col gap-5  justify-center items-center text-center">
 
-                <img src="./images/logo-final.jfif"alt="Company Logo"class="w-32 object-contain sm:w-40 rounded-full">
+                <img src="./images/logofinal2-removebg-preview.png"alt="Company Logo"class="w-32 object-contain sm:w-40 rounded-full">
 
-                <p class="max-w-sm text-sm leading-6 text-neutral-400">We provide reliable construction, architecture,renovation, and interior design solutions builtaround quality and trust.</p>
+                <p class="max-w-sm text-sm leading-6 text-neutral-400 sm:text-wrap">We provide reliable construction, architecture,renovation, and interior design solutions builtaround quality and trust.</p>
 
 
                 <div class="flex gap-4">
 
-    <!-- Facebook -->
+    <!--fb -->
     <a href="#" aria-label="Facebook"
        class="flex h-10 w-10 items-center justify-center rounded-full border border-neutral-700 text-neutral-400 transition hover:border-amber-500 hover:bg-amber-500 hover:text-black">
 
@@ -681,7 +432,7 @@
 
     </a>
 
-    <!-- Instagram -->
+    <!-- insta -->
     <a href="#" aria-label="Instagram"
        class="flex h-10 w-10 items-center justify-center rounded-full border border-neutral-700 text-neutral-400 transition hover:border-amber-500 hover:bg-amber-500 hover:text-black">
 
@@ -698,7 +449,7 @@
 
 
             <!-- col 2 -->
-            <div>
+            <div class="justify-center items-center text-center">
 
                 <h2 class="mb-5 text-lg font-semibold">
                     Quick Links
@@ -737,7 +488,7 @@
 
 
             <!-- col 3 -->
-            <div>
+            <div class=" justify-center items-center text-center">
 
                 <h2 class="mb-5 text-lg font-semibold">
                     Services
@@ -779,9 +530,11 @@
 
 
             <!-- col 4 -->
-            <div><h2 class="mb-5 text-lg font-semibold">Contact Us</h2>
+             <div class="flex justify-center items-center text-center">
+            <div >
+                <h2 class="mb-5 text-lg font-semibold">Contact Us</h2>
 
-                <ul class="space-y-5 text-sm text-neutral-400">
+                <ul class="space-y-5 text-sm text-neutral-400 ">
 
                   <!-- Phone -->
               <li class="flex items-center gap-3">
@@ -824,17 +577,12 @@
                    <span class="block text-white">Address</span>
                    <span>Karachi, Pakistan</span>
                </div>
-
               </li>
-
          </ul>
-   
 
             </div>
 
         </div>
-
-
 
         <!-- fotter foot -->
         <div class="border-t border-neutral-800 flex justify-center items-center">
@@ -848,13 +596,11 @@
 
             </div>
         </div>
+        </div>
 
     </footer>
-
-
 
     <script src="./index.js"></script>
 
 </body>
-
 </html>
